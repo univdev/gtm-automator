@@ -1,18 +1,21 @@
 {
   "name": "gtm-automator",
   "private": true,
+  "version": "0.0.1",
+  "description": "Automator for Google Tag Manager",
+  "keywords": ["gtm", "automator", "taxonomy"],
+  "author": "Univdev <pcydeveloper@gmail.com>",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "lint": "turbo lint"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
     "turbo": "^2.1.2",
     "typescript": "^5.4.5"
   },
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@9.6.0",
   "engines": {
     "node": ">=18"
   }
